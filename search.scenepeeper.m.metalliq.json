@@ -11,7 +11,7 @@
    {
     "link"      : "plugin://plugin.video.mdscenepeeper/?description&iconimage=special://home/addons/plugin.video.mdscenepeeper/icon.png&mode=4&name=&url=url",
     "steps"     : [
-     "@keyboard:{title}",
+     "keyboard:{title}",
      ".*{title}.*{year}.*"
      ],
     "action"    : "PLAY"
