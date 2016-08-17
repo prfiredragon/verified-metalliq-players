@@ -2,7 +2,7 @@
  "name"         : "Explore [COLOR FF0084FF]-[/COLOR] KissCartoon ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.thehighway",
  "plugin"       : "plugin.video.kisscartoon",
- "priority"     : 900,
+ "priority"     : 700,
  "id"           : "explore.kisscartoon.q",
  "filters"      : {},
  "postprocess"  : "",

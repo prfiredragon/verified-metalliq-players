@@ -2,7 +2,7 @@
  "name"         : "Explore [COLOR FF0084FF]-[/COLOR] KissAnime Subbed ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.thehighway",
  "plugin"       : "plugin.video.kissanime",
- "priority"     : 900,
+ "priority"     : 700,
  "id"           : "explore.kissanime_s.q",
  "filters"      : {},
  "postprocess"  : "",
