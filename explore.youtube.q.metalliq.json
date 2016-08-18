@@ -13,7 +13,7 @@
     "steps"     : [
      "{title}.*{year}.*"
      ],
-    "action"    : "ACTIVATE"
+    "action"    : "PLAY"
    },
    {
     "link"      : "plugin://plugin.video.youtube/kodion/search/query/?q={title}",

@@ -1,22 +1,22 @@
 {
- "name"         : "Explore [COLOR FF0084FF]-[/COLOR] ExtendedInfo's YouTube ([COLOR FF0084FF]Q[/COLOR])",
- "repository"   : "repository.q",
- "plugin"       : "script.extendedinfo",
+ "name"         : "Explore [COLOR FF0084FF]-[/COLOR] Vimeo ([COLOR FF0084FF]Q[/COLOR])",
+ "repository"   : "repository.xbmc.org",
+ "plugin"       : "plugin.video.vimeo",
  "priority"     : 700,
- "id"           : "explore.extendedinfo_youtube.q",
+ "id"           : "explore.vimeo.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
   [
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={name}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={name}",
     "steps"     : [
      "{title}.*{year}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={title}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={title}",
     "steps"     : [
      "{title}.*"
      ],
@@ -27,49 +27,49 @@
  "tvshows"      : [
   [
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={clearname}+{absolute_number}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={clearname}+{absolute_number}",
     "steps"     : [
      ".*{clearname}.*{absolute_number}.*{title}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={clearname}+{absolute_number}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={clearname}+{absolute_number}",
     "steps"     : [
      ".*{absolute_number}.*{title}"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={clearname}+{season}x{episode}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={clearname}+{season}x{episode}",
     "steps"     : [
      "{clearname}.*{season}x{episode}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={clearname}+s{season}e{episode}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={clearname}+s{season}e{episode}",
     "steps"     : [
      "{clearname}.*s{season}e{episode}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={clearname}+{season}{episode:02d}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={clearname}+{season}{episode:02d}",
     "steps"     : [
      "{clearname}.*{season}{episode:02d}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={clearname}+{absolute_number}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={clearname}+{absolute_number}",
     "steps"     : [
      ".*{absolute_number}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={clearname}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={clearname}",
     "steps"     : [
      ".*{clearname}.*"
      ],
@@ -80,21 +80,21 @@
  "musicvideos"  : [
   [
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={artist}+{album}+{track}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={artist}+{album}+{track}",
     "steps"     : [
      ".*{artist}.*{album}.*{track}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={artist}+{track}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={artist}+{track}",
     "steps"     : [
      ".*{artist}.*{track}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={track}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={track}",
     "steps"     : [
      ".*{track}.*"
      ],
@@ -105,21 +105,21 @@
  "music"        : [
   [
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={artist}+{album}+{track}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={artist}+{album}+{track}",
     "steps"     : [
      ".*{artist}.*{album}.*{track}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={artist}+{track}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={artist}+{track}",
     "steps"     : [
      ".*{artist}.*{track}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={track}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={track}",
     "steps"     : [
      ".*{track}.*"
      ],
@@ -130,28 +130,28 @@
  "live"         : [
   [
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={name}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={name}",
     "steps"     : [
      "{name}"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={name}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={name}",
     "steps"     : [
      ".*{name}.*"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={name}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={name}",
     "steps"     : [
      "{basename}.({extension}|{extension|number_to_text()}|{extension|text_to_number()})"
      ],
     "action"    : "PLAY"
    },
    {
-    "link"      : "plugin://script.extendedinfo/?info=youtubesearch&id={name}",
+    "link"      : "plugin://plugin.video.vimeo/kodion/search/query/?q={name}",
     "steps"     : [
      ".*{basename}.({extension}|{extension|number_to_text()}|{extension|text_to_number()}).*"
      ],

@@ -14,7 +14,7 @@
     "steps"     : [
      "{title}.*{year}.*"
      ],
-    "action"    : "ACTIVATE"
+    "action"    : "PLAY"
    },
    {
     "language"  : "nl",

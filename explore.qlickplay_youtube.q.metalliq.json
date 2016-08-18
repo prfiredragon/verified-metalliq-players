@@ -13,7 +13,7 @@
     "steps"     : [
      "{title}.*{year}.*"
      ],
-    "action"    : "ACTIVATE"
+    "action"    : "PLAY"
    },
    {
     "link"      : "plugin://script.qlickplay/?info=youtubesearch&id={title}",
