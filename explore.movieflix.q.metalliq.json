@@ -2,7 +2,7 @@
  "name"         : "Explore [COLOR ff0084ff]-[/COLOR] MovieFlix ([COLOR FF0084FF]Q[/COLOR])",
  "repository"   : "repository.mdrepo",
  "plugin"       : "plugin.video.mdmovieflix",
- "priority"     : 500,
+ "priority"     : 698,
  "id"           : "explore.movieflix.q",
  "filters"      : {},
  "postprocess"  : "",
