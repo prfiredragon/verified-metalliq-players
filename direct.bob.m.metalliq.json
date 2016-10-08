@@ -1,6 +1,6 @@
 {
  "name"         : "Direct [COLOR FF0084FF]-[/COLOR] BOB ([COLOR FF0084FF]M[/COLOR])",
- "repository"   : "repository.xbmchub",
+ "repository"   : "repository.noobsandnerds",
  "plugin"       : "plugin.video.bob",
  "priority"     : 200,
  "id"           : "direct.bob.m",
