@@ -21,6 +21,11 @@
     "link"      : "plugin://plugin.video.gdrive-testing/?content_type=video&instance=gdrive1&mode=search&title={clearname}.*S{season:02d}E{episode:02d}",
     "steps"     : ["{clearname}.*S{season:02d}E{episode:02d}.*(avi|mp4|mkv|mpg|mov|ts)"],
     "action"    : "PLAY"
+    },
+    {
+    "link"      : "plugin://plugin.video.gdrive-testing/?content_type=video&instance=gdrive1&mode=search&title={clearname}.*{epyear}.{epmonth:02d}.{epday:02d}",
+    "steps"     : ["{clearname}.{epyear}.{epmonth:02d}.{epday:02d}.*(avi|mp4|mkv|mpg|mov|ts)"],
+    "action"    : "PLAY"
    }
   ]
  ],
