@@ -29,7 +29,7 @@
         "link":"plugin://plugin.video.filmon.simple/",
         "steps":[
           "@any",
-          "{name}"
+          ".*{name}.*"
         ],
         "action":"PLAY"
       },
