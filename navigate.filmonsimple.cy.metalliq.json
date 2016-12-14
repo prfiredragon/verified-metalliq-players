@@ -1,6 +1,6 @@
 {
   "name":"Navigate [COLOR FF0084FF]-[/COLOR] FilmOn Simple ([COLOR FF0084FF]Cy[/COLOR])",
-  "repository":"repository.xmbchub",
+  "repository":"repository.xbmchub",
   "plugin":"plugin.video.filmon.simple",
   "priority":800,
   "id":"navigate.filmonsimple.cy",
@@ -29,7 +29,7 @@
         "link":"plugin://plugin.video.filmon.simple/",
         "steps":[
           "@any",
-          "{name}"
+          ".*{name}.*"
         ],
         "action":"PLAY"
       },
