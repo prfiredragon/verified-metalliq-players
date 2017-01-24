@@ -1,6 +1,6 @@
 {
  "name"         : "Evolve",
- "repository"   : "repository.goliath",
+ "repository"   : "repository.Goliath",
  "plugin"       : "plugin.video.Evolve",
  "priority"     : 800,
  "id"           : "navigate.evolve.q",
