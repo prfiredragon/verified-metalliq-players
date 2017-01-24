@@ -1,5 +1,5 @@
 {
- "name"         : "Explore [COLOR ff0084ff]-[/COLOR] HD Box ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "HD Box",
  "repository"   : "repository.mdrepo",
  "plugin"       : "plugin.video.mdhdbox",
  "priority"     : 700,
