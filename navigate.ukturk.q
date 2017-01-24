@@ -3,7 +3,7 @@
  "repository"   : "repository.metalkettle",
  "plugin"       : "plugin.video.ukturk",
  "priority"     : 800,
- "id"           : ".ukturk.q",
+ "id"           : "navigate.ukturk.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
