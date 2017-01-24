@@ -1,5 +1,5 @@
 {
- "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Bob ([COLOR FF0084FF]M[/COLOR])",
+ "name"         : "Bob",
  "repository"   : "repository.noobsandnerds",
  "plugin"       : "plugin.video.bob",
  "priority"     : 200,
