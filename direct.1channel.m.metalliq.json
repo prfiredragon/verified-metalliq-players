@@ -1,9 +1,9 @@
 {
- "name"         : "Search [COLOR FF0084FF]-[/COLOR] 1Channel ([COLOR FF0084FF]M[/COLOR])",
+ "name"         : "1Channel",
  "repository"   : "repository.tknorris.release",
  "plugin"       : "plugin.video.1channel",
- "priority"     : 900,
- "id"           : "search.1channel.m",
+ "priority"     : 200,
+ "id"           : "direct.1channel.m",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
