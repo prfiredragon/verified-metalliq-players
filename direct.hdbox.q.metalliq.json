@@ -2,8 +2,8 @@
  "name"         : "HD Box",
  "repository"   : "repository.mdrepo",
  "plugin"       : "plugin.video.mdhdbox",
- "priority"     : 700,
- "id"           : "explore.hdbox.q",
+ "priority"     : 200,
+ "id"           : "direct.hdbox.q",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
