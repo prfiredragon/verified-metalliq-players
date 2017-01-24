@@ -1,5 +1,5 @@
 {
- "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Exodus ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Exodus",
  "repository"   : "repository.exodus",
  "plugin"       : "plugin.video.exodus",
  "priority"     : 200,
