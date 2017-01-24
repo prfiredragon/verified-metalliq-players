@@ -1,5 +1,5 @@
 {
- "name"         : "Direct [COLOR FF0084FF]-[/COLOR] Phoenix ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Phoenix",
  "repository"   : "repository.xbmchub",
  "plugin"       : "plugin.video.phstreams",
  "priority"     : 200,
