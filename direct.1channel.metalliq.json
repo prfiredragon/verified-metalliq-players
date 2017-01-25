@@ -3,7 +3,7 @@
  "repository"   : "repository.tknorris.release",
  "plugin"       : "plugin.video.1channel",
  "priority"     : 200,
- "id"           : "direct.1channel.v",
+ "id"           : "direct.1channel",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
