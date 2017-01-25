@@ -3,7 +3,7 @@
  "repository"   : "repository.Goliath",
  "plugin"       : "plugin.video.Evolve",
  "priority"     : 800,
- "id"           : "navigate.evolve.v",
+ "id"           : "navigate.evolve",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],
