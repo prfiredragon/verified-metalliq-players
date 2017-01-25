@@ -1,9 +1,9 @@
 {
- "name"         : "Explore [COLOR FF0084FF]-[/COLOR] ExtendedInfo's YouTube ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "ExtendedInfo's YouTube",
  "repository"   : "repository.q",
  "plugin"       : "script.extendedinfo",
  "priority"     : 700,
- "id"           : "explore.extendedinfo_youtube.q",
+ "id"           : "explore.extendedinfo_youtube",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],
