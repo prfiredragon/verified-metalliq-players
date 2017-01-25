@@ -3,7 +3,7 @@
  "repository"   : "repository.schismtvaddons",
  "plugin"       : "plugin.video.zen",
  "priority"     : 200,
- "id"           : "direct.zen.v",
+ "id"           : "direct.zen",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
