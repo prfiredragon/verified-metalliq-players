@@ -12,7 +12,7 @@
  "music"        : [
   [
    {
-    "link"      : "plugin://plugin.audio.musicbox/?url=&mode=37&name=&iconimage=&fanart&album={album}&track_name={track}&type=song&artist={artist}",
+    "link"      : "plugin://plugin.audio.karmamusic/?url=&mode=37&name=&iconimage=&fanart&album={album}&track_name={track}&type=song&artist={artist}",
     "steps"     : [],
     "action"    : "PLAY"
    }
@@ -21,7 +21,7 @@
  "music"        : [
   [
    {
-    "link"      : "plugin://plugin.audio.musicbox/?url=&mode=39&name=&iconimage=&fanart&album={album}&track_name={track}&type=song&artist={artist}",
+    "link"      : "plugin://plugin.audio.karmamusic/?url=&mode=39&name=&iconimage=&fanart&album={album}&track_name={track}&type=song&artist={artist}",
     "steps"     : [],
     "action"    : "PLAY"
    }
