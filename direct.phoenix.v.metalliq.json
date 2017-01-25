@@ -3,7 +3,7 @@
  "repository"   : "repository.xbmchub",
  "plugin"       : "plugin.video.phstreams",
  "priority"     : 200,
- "id"           : "direct.phoenix.q",
+ "id"           : "direct.phoenix.v",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
