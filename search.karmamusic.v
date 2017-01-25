@@ -3,7 +3,7 @@
  "repository"   : "repository.schismtvaddons",
  "plugin"       : "plugin.audio.karmamusic",
  "priority"     : 900,
- "id"           : "search.karmamusic.q",
+ "id"           : "search.karmamusic.v",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],
