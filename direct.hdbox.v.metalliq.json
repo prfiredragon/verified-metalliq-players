@@ -3,7 +3,7 @@
  "repository"   : "repository.mdrepo",
  "plugin"       : "plugin.video.mdhdbox",
  "priority"     : 200,
- "id"           : "direct.hdbox.q",
+ "id"           : "direct.hdbox.v",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
