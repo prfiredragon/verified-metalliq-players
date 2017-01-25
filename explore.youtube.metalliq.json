@@ -3,7 +3,7 @@
  "repository"   : "repository.xbmc.org",
  "plugin"       : "plugin.video.youtube",
  "priority"     : 700,
- "id"           : "explore.youtube.q",
+ "id"           : "explore.youtube",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],
