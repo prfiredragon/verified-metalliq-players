@@ -1,9 +1,9 @@
 {
- "name"         : "Navigate [COLOR FF0084FF]-[/COLOR] Phoenix ([COLOR FF0084FF]Q[/COLOR])",
+ "name"         : "Navigate Phoenix",
  "repository"   : "repository.xbmchub",
  "plugin"       : "plugin.video.phstreams",
  "priority"     : 800,
- "id"           : "navigate.phoenix.q",
+ "id"           : "navigate.phoenix",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [],
