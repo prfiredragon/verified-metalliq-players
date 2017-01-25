@@ -3,7 +3,7 @@
  "repository"   : "repository.exodus",
  "plugin"       : "plugin.video.exodus",
  "priority"     : 200,
- "id"           : "direct.exodus.v",
+ "id"           : "direct.exodus",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
