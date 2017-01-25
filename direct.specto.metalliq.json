@@ -3,7 +3,7 @@
  "repository"   : "repository.filmkodi.com",
  "plugin"       : "plugin.video.specto",
  "priority"     : 200,
- "id"           : "direct.specto.v",
+ "id"           : "direct.specto",
  "filters"      : {},
  "postprocess"  : "",
  "movies"       : [
