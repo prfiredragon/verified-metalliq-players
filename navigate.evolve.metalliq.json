@@ -1,0 +1,53 @@
+{
+ "name"         : "Evolve",
+ "repository"   : "repository.Goliath",
+ "plugin"       : "plugin.video.Evolve",
+ "priority"     : 800,
+ "id"           : "navigate.evolve",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [],
+ "tvshows"      : [],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : [
+  [
+   {
+    "link": "plugin://plugin.video.Evolve/",
+    "steps": [
+     ".*orts.*",
+     "@anycontaining:pack|bein",
+     "{name}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link": "plugin://plugin.video.Evolve/",
+    "steps": [
+     ".*orts.*",
+     "@anycontaining:pack|bein",
+     ".*{name}.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link": "plugin://plugin.video.Evolve/",
+    "steps": [
+     ".*orts.*",
+     "@anycontaining:pack|bein",
+     "{basename}.({extension}|{extension|number_to_text()}|{extension|text_to_number()})"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link": "plugin://plugin.video.Evolve/",
+    "steps": [
+     ".*orts.*",
+     "@anycontaining:pack|bein",
+     ".*{basename}.({extension}|{extension|number_to_text()}|{extension|text_to_number()}).*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ]
+}

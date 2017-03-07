@@ -1,0 +1,24 @@
+{
+ "name"         : "HD Box",
+ "repository"   : "repository.mdrepo",
+ "plugin"       : "plugin.video.mdhdbox",
+ "priority"     : 200,
+ "id"           : "direct.hdbox",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.mdhdbox/?description&iconimage=special://home/addons/plugin.video.mdhdbox/icon.png&mode=1&name=&url=http://xmovies8.org/results?q={title}",
+    "steps"     : [
+     "($$.*$$){title}($$.*$$)"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}

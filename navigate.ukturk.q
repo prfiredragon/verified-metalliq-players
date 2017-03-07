@@ -1,0 +1,90 @@
+{
+ "name"         : "UK Turk Playlists",
+ "repository"   : "repository.metalkettle",
+ "plugin"       : "plugin.video.ukturk",
+ "priority"     : 800,
+ "id"           : "navigate.ukturk.q",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     "movies",
+     "@any",
+     ".*{title}.*{year}.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     ".*stand.*",
+     ".*{title}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     ".*shows*",
+     "($$.*$$)*{clearname}($$.*$$)*",
+     ".*S{season:02d}E{episode:02d}.*|.*E{episode:02d}.*|.*E{absolute_number:02d}.*|.*{title}.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     ".*cartoons*",
+     "($$.*$$)*{clearname}($$.*$$)*",
+     ".*S{season:02d}E{episode:02d}.*|.*E{episode:02d}.*|.*E{absolute_number:02d}.*|.*{title}.*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : [
+  [
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     ".*live.*|.*sports.*",
+     "{name}"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     ".*live.*|.*sports.*",
+     ".*{name}.*"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     ".*live.*|.*sports.*",
+     "{basename}.({extension}|{extension|number_to_text()}|{extension|text_to_number()})"
+     ],
+    "action"    : "PLAY"
+   },
+   {
+    "link"      : "plugin://plugin.video.ukturk/",
+    "steps"     : [
+     ".*live.*|.*sports.*",
+     ".*{basename}.({extension}|{extension|number_to_text()}|{extension|text_to_number()}).*"
+     ],
+    "action"    : "PLAY"
+   }
+  ]
+ ] 
+}
